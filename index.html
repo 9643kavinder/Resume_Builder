@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CV_BUILDER</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <style>
+          body {
+      font:Montserrat, sans-serif;
+      line-height: 1.8;
+      
+               color:whitesmoke;
+              
+  }
+    .navbar {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: darkgrey!important;
+  }
+ #pageOne{
+     padding-top: 150px;
+            background-image: url("https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=362d7bfa3bb12d109ccec4ef185281cf&auto=format&fit=crop&w=1950&q=80");
+             height:700px;
+     opacity: 1;
+     background-size: auto;
+      background-repeat: no-repeat; 
+     height:auto;
+        }
+        
+     .pageOneData{
+     text-align: right;
+    
+     font-family: cursive!important;
+     opacity:0.5!important;
+        
+         
+        }
+   
+       .button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 2vw;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 40vw;
+           
+           
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+    
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+        #pageTwo{
+            background-color:whitesmoke;
+            height:auto;
+             background-size: 100%;
+      background-repeat: no-repeat; 
+        
+        }   
+        .pageTwoData{
+            text-align: center;
+            font-size: 50px;
+    color:darkslategrey;
+     font-family:serif;
+     opacity:0.8!important;
+            
+            
+        }
+        #pageThird{
+            
+            height:auto;
+            background-color:darkslategray;
+            background-size: 100%;
+      background-repeat: no-repeat; 
+            
+        }
+        .pageThirdData{
+            color:white;
+        font-family:serif;
+            
+            opacity: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">SIGN IN</a></li>
+        <li><a href="#">REGISTER</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+   
+
+<div class="container-fluid" id="pageOne">
+    <div class="container-fluid text-center pageOneData" style="font-size: 5vw">
+        <strong>ONLINE RESUME BUILDER</strong>
+        
+        <h1 style="font-size: 3vw; padding-right: 10vw;"> <b>Create Your Resume In 15 Minutes</b></h1>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+        <button onclick="location.href='form_pers.html'" class="button"><span>GET RESUME </span></button>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    
+    </div>
+    <!-- secondpage -->
+<div class="container-fluid" id="pageTwo">
+    <div class="pageTwoData">
+        <p style="padding-top:30px; letter-spacing: 5px;"><strong>Build Your CV In 4 Simple Steps</strong></p>
+        
+        <div class="container">
+        <ol>
+            <div class="row text-center ">
+            <div class="col-sm-3">
+        <i class="material-icons" style="font-size: 150px;">&#xe7fd;</i>
+                <p style="font-size: 30px; color:darkslategrey; font-family:monospace">1.PersonalInfo</p>
+                </div>
+                
+                 <div class="col-sm-3">
+        <i class="material-icons" style="font-size: 150px;">&#xe8f9;</i>
+                     <p style="font-size: 30px; color:darkslategrey; font-family:monospace">2.Experience</p>
+                </div>
+                 <div class="col-sm-3">
+        <i class="material-icons" style="font-size: 150px;">&#xe85d;</i>
+                     <p style="font-size: 30px; color:darkslategrey; font-family:monospace">3.Qualification</p>
+                </div>
+                 <div class="col-sm-3">
+        <i class="material-icons" style="font-size: 150px;">&#xe8cd;</i>
+                     <p style="font-size: 30px; color:darkslategrey; font-family:monospace">4.OtherInfo</p>
+                </div>
+            </div>
+        </ol>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    </div>
+    
+    <!-- third page -->
+    <div class="container-fluid" id="pageThird">
+    <div class="pageThirdData">
+        <p class="text-center" style="font-size:50px; padding-top:40px; letter-spacing: 2px;"><strong>CV-Builder Features</strong></p>
+        <br>
+        <div class="row text-center">
+        <div class="col-sm-6">
+           <i class="material-icons" style="font-size:120px; color:white">&#xe337;</i> 
+            <p style="font-family: monospace; font-size: 25px; ">Build your CV from a desktop,<br> tablet,
+                or mobile device</p>
+            </div> 
+        <div class="col-sm-6">
+            <i class="material-icons" style="font-size:120px; color:white">&#xe322;</i>
+            <p style="font-family: monospace; font-size: 25px; ">Save your progress and<br> finish your CV later</p>
+            </div>
+        
+        
+        </div>
+        <br>
+        <br>
+         <div class="row text-center">
+        <div class="col-sm-6">
+           <i class="material-icons" style="font-size:120px; color:white">&#xe913;</i> 
+            <p style="font-family: monospace; font-size: 25px; ">Start to apply for jobs <br>soon as your CV's created</p>
+            </div> 
+        <div class="col-sm-6">
+            <i class="material-icons" style="font-size:120px; color:white">&#xe861;</i>
+            <p style="font-family: monospace; font-size: 25px; ">Download your CV as <br>a Word document</p>
+            </div>
+        
+        
+        </div>
+        <br>
+        
+        </div>
+    
+    
+    
+    </div>
+
+</body>
+</html>
